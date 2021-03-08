@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
+import Nav from './components/Nav'
 import Introduction from './components/Introduction'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -10,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
+
+      <Nav />
 
       <main>
         <Switch>
