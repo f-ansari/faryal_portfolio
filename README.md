@@ -15,14 +15,14 @@ breif description LOADING...
 
 ### ***Technologies***
 
-* Raect
+* React
 * Node
 
 ***
 
 ### ***Getting Started***
 
-To get started, click [here](https://www.google.com) and visit my trello board and follow up with the process of building my portfolio.
+To get started, click [here](https://trello.com/b/dnAYWdd4/faryals-web-portfolio) and visit my trello board and follow up with the process of building my portfolio.
 
 ***
 
