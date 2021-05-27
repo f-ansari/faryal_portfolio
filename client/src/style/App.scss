@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+// color higharchey from light to dark
+$primary-color: #ede0d4;
+$secondary-color: #ddb892;
+$blend-color: #b08968;
+$contrast-color: #9c6644;
+$shadow-color: #7f5539;
+
+$font-stack: Poppins, sans-serif;
+$fontsize-reading: 18px;
+
+body {
+  background-color: $primary-color;
+  font-family: $font-stack;
+}
+
+nav {
+  height: 8vh;
+  background-color: $contrast-color;
+}
+
+.nav-links {
+  display: flex;
+  border: 1px red solid;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: $fontsize-reading;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: $primary-color;
+    margin: 0 0 5px 0;
+  }
+
+  .nav-links {
+    position: fixed;
+    background: $contrast-color;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -100%);
+    -webkit-clip-path: circle(100px at 100% -100%);
+    transition: all 1s ease-out;
+  }
+
+  .nav-links.open {
+    clip-path: circle(2000px at 90% -10%);
+    -webkit-clip-path: circle(2000px at 90% -10%);
+  }
+}

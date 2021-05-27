@@ -20,7 +20,6 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </main>
-      <section className="nav-bar"></section>
     </div>
   )
 }
