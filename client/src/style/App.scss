@@ -34,22 +34,46 @@ nav {
     text-decoration: none;
     font-size: $fontsize-reading;
     padding: 10px 40px;
-    border: 1px $secondary-color solid;
+    border: 1px solid $shadow-color;
     border-radius: 10px;
   }
+}
+
+.home-banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5vh 3vw 0 3vw;
+}
+
+.intro-card {
+  border-radius: 10px;
+  margin: 10vh 10vw 0 10vw;
+  padding: 8vh 8vw 5vh 8vw;
+  background: $blend-color;
+  color: $primary-color;
+  text-shadow: 2px 2px 2px $shadow-color;
+}
+
+.profile-pic {
+  height: 18vh;
+  border: 6px $secondary-color solid;
+  border-radius: 300px;
+  z-index: 100;
+  position: fixed;
 }
 
 @media screen and (max-width: 1180px) {
   nav {
     position: relative;
+    flex-direction: row-reverse;
+    display: flex;
   }
 
   .hamburger {
     position: absolute;
     cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
+    margin: 2.5vh 3vw 2vh -3vw;
     z-index: 2;
   }
 
@@ -74,7 +98,6 @@ nav {
 
     a {
       margin: 15px;
-      border: 1px solid $shadow-color;
       // box-shadow: 0 8px 25px 6px $blend-color;
     }
   }
