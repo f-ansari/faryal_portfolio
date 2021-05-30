@@ -24,12 +24,13 @@ nav {
   display: flex;
   width: 50%;
   height: 100%;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   margin-left: auto;
 
   a {
     color: black;
+    margin: 0 1vw 0 0;
     background: $secondary-color;
     text-decoration: none;
     font-size: $fontsize-reading;
@@ -44,6 +45,7 @@ nav {
   justify-content: center;
   text-align: center;
   margin: 5vh 3vw 0 3vw;
+  border: 1px red solid;
 }
 
 .intro-card {
@@ -59,7 +61,7 @@ nav {
   height: 18vh;
   border: 6px $secondary-color solid;
   border-radius: 300px;
-  z-index: 100;
+  // z-index: ;
   position: fixed;
 }
 
@@ -74,7 +76,7 @@ nav {
     position: absolute;
     cursor: pointer;
     margin: 2.5vh 3vw 2vh -3vw;
-    z-index: 2;
+    z-index: 100;
   }
 
   .line {
@@ -82,6 +84,7 @@ nav {
     height: 3px;
     background: $primary-color;
     margin: 0 0 5px 0;
+    border-radius: 3px;
   }
 
   .nav-links {
@@ -109,5 +112,6 @@ nav {
     background: linear-gradient(to top, $primary-color 0%, $contrast-color 100%)
       no-repeat;
     height: 100vh;
+    z-index: 1;
   }
 }
