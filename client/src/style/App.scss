@@ -10,6 +10,8 @@ $shadow-color: #7f5539;
 $font-stack: Poppins, sans-serif;
 $fontsize-reading: 18px;
 
+$standerd-margin: 5vh 3vw 0 3vw;
+
 body {
   background-color: $primary-color;
   font-family: $font-stack;
@@ -43,14 +45,16 @@ nav {
 .home-banner {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin: 5vh 3vw 0 3vw;
+  margin: $standerd-margin;
   border: 1px red solid;
 }
 
 .intro-card {
   border-radius: 10px;
-  margin: 10vh 10vw 0 10vw;
+  margin: -10vh 0 0 0;
   padding: 8vh 8vw 5vh 8vw;
   background: $blend-color;
   color: $primary-color;
@@ -59,10 +63,15 @@ nav {
 
 .profile-pic {
   height: 18vh;
+  width: 18vh;
   border: 6px $secondary-color solid;
   border-radius: 300px;
-  // z-index: ;
-  position: fixed;
+  position: relative;
+}
+
+.skills-container {
+  border: 1px red solid;
+  margin: $standerd-margin;
 }
 
 @media screen and (max-width: 1180px) {
