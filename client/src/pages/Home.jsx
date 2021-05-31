@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div>
-        {/* <Skills /> */}
+        <Skills />
       </div>
     </div>
   )

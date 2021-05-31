@@ -10,5 +10,45 @@
   {
     "description": "javascript logo",
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fjavascript-logo.png&f=1&nofb=1"
+  },
+  {
+    "description": "react logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FReact_logo_logotype_emblem.png&f=1&nofb=1"
+  },
+  {
+    "description": "node logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fseeklogo.com%2Fimages%2FN%2Fnodejs-logo-FBE122E377-seeklogo.com.png&f=1&nofb=1"
+  },
+  {
+    "description": "mongodb logo",
+    "image": "https://doc.octoperf.com/monitoring/create-connection/mongodb/img/mongodb-logo.png"
+  },
+  {
+    "description": "PostgeSQL logo",
+    "image": "https://blog.xojo.com/wp-content/uploads/2017/06/postgresql-card.png"
+  },
+  {
+    "description": "redux logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fraw.githubusercontent.com%2Freduxjs%2Fredux%2Fmaster%2Flogo%2Flogo-title-dark.png&f=1&nofb=1"
+  },
+  {
+    "description": "git logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3f%2FGit_icon.svg%2F1200px-Git_icon.svg.png&f=1&nofb=1"
+  },
+  {
+    "description": "github logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fgithub%2Fgithub_PNG20.png&f=1&nofb=1"
+  },
+  {
+    "description": "sass logo",
+    "image": "http://vanseodesign.com/blog/wp-content/uploads/2015/09/sass-logo-2.png"
+  },
+  {
+    "description": "Rest Api/APIs logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fitechtions.com%2Fwp-content%2Fuploads%2F2019%2F08%2Ficon-api-24.png&f=1&nofb=1"
+  },
+  {
+    "description": "adobeXD logo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F2x%2Fadobe-xd-logo.png&f=1&nofb=1"
   }
 ]

@@ -3,17 +3,18 @@ import skills from '../assets/skills.json'
 
 
 const Skills = () => {
-    // console.log (skills)
     return (
+    <div className="skill-page">
+        <h1>The Fun Stuff... Skills I Know</h1>
+        <h3>Scroll Left</h3>
         <div className='skills-container'>
-
         {
             skills.map(skill => {
-                // console.log(skill.image)
-               return <img src={skill.image} alt={skill.description}></img>
+                return <img className="skills-img" src={skill.image} alt={skill.description}></img>
             }) 
         }
         </div>
+    </div>
     )
 }
 

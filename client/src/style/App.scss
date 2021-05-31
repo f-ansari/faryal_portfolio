@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 // color higharchey from light to dark
-$primary-color: #ede0d4;
+$primary-color: #f4eeea;
 $secondary-color: #ddb892;
 $blend-color: #b08968;
 $contrast-color: #9c6644;
@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-  height: 8vh;
+  height: 5em;
   background-color: $contrast-color;
 }
 
@@ -32,6 +32,7 @@ nav {
 
   a {
     color: black;
+    // height: 3vh;
     margin: 0 1vw 0 0;
     background: $secondary-color;
     text-decoration: none;
@@ -69,9 +70,23 @@ nav {
   position: relative;
 }
 
+.skill-page {
+  margin: $standerd-margin;
+  text-align: center;
+  color: $contrast-color;
+}
 .skills-container {
   border: 1px red solid;
-  margin: $standerd-margin;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: auto;
+  justify-content: left;
+}
+
+.skills-img {
+  // width: 10vw;
+  height: 20vh;
 }
 
 @media screen and (max-width: 1180px) {
@@ -84,7 +99,7 @@ nav {
   .hamburger {
     position: absolute;
     cursor: pointer;
-    margin: 2.5vh 3vw 2vh -3vw;
+    margin: 5.5vh 3vw 0 -3vw;
     z-index: 100;
   }
 
@@ -122,5 +137,9 @@ nav {
       no-repeat;
     height: 100vh;
     z-index: 1;
+  }
+
+  .skills-img {
+    height: 13vh;
   }
 }
