@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 // color higharchey from light to dark
 $primary-color: #f4eeea;
 $secondary-color: #ddb892;
 $blend-color: #b08968;
-$contrast-color: #9c6644;
-$shadow-color: #7f5539;
+$contrast-color: #573825;
+$shadow-color: #513e32;
 
-$font-stack: Poppins, sans-serif;
+// $font-stack: Poppins, sans-serif;
+$font-stack: Barlow, sans-serif;
 $fontsize-reading: 18px;
 
 $standerd-margin: 5vh 3vw 0 3vw;
@@ -36,9 +38,11 @@ nav {
     background: $secondary-color;
     text-decoration: none;
     font-size: $fontsize-reading;
-    padding: 10px 40px;
-    border: 1px solid $shadow-color;
-    border-radius: 10px;
+    padding: 8px 30px;
+    // border: 1px solid $shadow-color;
+    border: 1px solid $blend-color;
+
+    border-radius: 3px;
   }
 }
 
@@ -49,16 +53,16 @@ nav {
   align-items: center;
   text-align: center;
   margin: $standerd-margin;
-  border: 1px red solid;
 }
 
 .intro-card {
-  border-radius: 10px;
+  border-radius: 5px;
   margin: -10vh 0 0 0;
   padding: 8vh 8vw 5vh 8vw;
   background: $blend-color;
   color: $primary-color;
-  text-shadow: 2px 2px 2px $shadow-color;
+  font-size: $fontsize-reading;
+  // text-shadow: 2px 2px 2px $shadow-color;
 }
 
 .profile-pic {
@@ -87,6 +91,23 @@ nav {
 .skills-img {
   // width: 10vw;
   height: 20vh;
+}
+
+.general-bttn {
+  margin: 5vh auto 5vh auto;
+  width: 15rem;
+  background: $secondary-color;
+  padding: 8px 30px;
+  border: 1px solid $blend-color;
+  border-radius: 3px;
+  text-align: center;
+
+  a {
+    color: $primary-color;
+    text-shadow: 1px 1px 1px $shadow-color;
+    text-decoration: none;
+    font-size: $fontsize-reading;
+  }
 }
 
 @media screen and (max-width: 1180px) {

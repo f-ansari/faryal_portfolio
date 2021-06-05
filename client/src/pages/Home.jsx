@@ -1,6 +1,8 @@
 import React from 'react'
 import profilePic from '../assets/faryal_profile_pic.jpg'
 import Skills from '../components/Skills'
+import { NavLink } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -15,6 +17,9 @@ function Home() {
 
       <div>
         <Skills />
+      </div>
+      <div className="general-bttn">
+        <NavLink to="/about">Learn More about me</NavLink>
       </div>
     </div>
   )
