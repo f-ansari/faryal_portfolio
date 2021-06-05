@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-  height: 5em;
+  height: 4em;
   background-color: $contrast-color;
 }
 
@@ -32,7 +32,6 @@ nav {
 
   a {
     color: black;
-    // height: 3vh;
     margin: 0 1vw 0 0;
     background: $secondary-color;
     text-decoration: none;
@@ -68,6 +67,7 @@ nav {
   border: 6px $secondary-color solid;
   border-radius: 300px;
   position: relative;
+  z-index: 1;
 }
 
 .skill-page {
@@ -99,7 +99,7 @@ nav {
   .hamburger {
     position: absolute;
     cursor: pointer;
-    margin: 5.5vh 3vw 0 -3vw;
+    margin: 1.5em 3vw 0 -3vw;
     z-index: 100;
   }
 
@@ -136,7 +136,7 @@ nav {
     background: linear-gradient(to top, $primary-color 0%, $contrast-color 100%)
       no-repeat;
     height: 100vh;
-    z-index: 1;
+    z-index: 50;
   }
 
   .skills-img {
