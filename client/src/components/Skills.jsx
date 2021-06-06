@@ -6,7 +6,7 @@ const Skills = () => {
     return (
     <div className="skill-page">
         <h1>The Fun Stuff... Skills I Know</h1>
-        <h3>Scroll Left</h3>
+        <h3>Scroll left to view all skills</h3>
         <div className='skills-container'>
         {
             skills.map(skill => {

@@ -3,10 +3,10 @@
 
 // color higharchey from light to dark
 $primary-color: #f4eeea;
-$secondary-color: #ddb892;
+$secondary-color: #f0e3d2;
 $blend-color: #b08968;
-$contrast-color: #573825;
-$shadow-color: #513e32;
+$contrast-color: #573825db;
+$shadow-color: #5b5a5a8e;
 
 // $font-stack: Poppins, sans-serif;
 $font-stack: Barlow, sans-serif;
@@ -39,7 +39,6 @@ nav {
     text-decoration: none;
     font-size: $fontsize-reading;
     padding: 8px 30px;
-    // border: 1px solid $shadow-color;
     border: 1px solid $blend-color;
 
     border-radius: 3px;
@@ -62,7 +61,6 @@ nav {
   background: $blend-color;
   color: $primary-color;
   font-size: $fontsize-reading;
-  // text-shadow: 2px 2px 2px $shadow-color;
 }
 
 .profile-pic {
@@ -80,34 +78,34 @@ nav {
   color: $contrast-color;
 }
 .skills-container {
-  border: 1px red solid;
+  border: 1px $blend-color solid;
+  border-radius: 5px;
+  background: $secondary-color;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
   -webkit-overflow-scrolling: auto;
   justify-content: left;
+  box-shadow: inset 0 0 30px 3px $shadow-color;
 }
 
 .skills-img {
-  // width: 10vw;
   height: 20vh;
+  padding: 0 5px 0 0;
 }
 
 .general-bttn {
   margin: 5vh auto 5vh auto;
-  width: 15rem;
+  align-content: center;
+  width: 25vw;
   background: $secondary-color;
-  padding: 8px 30px;
+  padding: 10px 45px;
   border: 1px solid $blend-color;
   border-radius: 3px;
   text-align: center;
-
-  a {
-    color: $primary-color;
-    text-shadow: 1px 1px 1px $shadow-color;
-    text-decoration: none;
-    font-size: $fontsize-reading;
-  }
+  cursor: pointer;
+  font-size: $fontsize-reading;
 }
 
 @media screen and (max-width: 1180px) {
@@ -146,7 +144,6 @@ nav {
 
     a {
       margin: 15px;
-      // box-shadow: 0 8px 25px 6px $blend-color;
     }
   }
 
