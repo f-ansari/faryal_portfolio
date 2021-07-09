@@ -45,31 +45,53 @@ nav {
   }
 }
 
-.home-banner {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: $standerd-margin;
-}
+// commented out like the code in home page
+// .home-banner {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   margin: $standerd-margin;
+// }
 
-.intro-card {
-  border-radius: 5px;
-  margin: -10vh 0 0 0;
-  padding: 8vh 8vw 5vh 8vw;
-  background: $blend-color;
-  color: $primary-color;
-  font-size: $fontsize-reading;
+// .intro-card {
+//   border-radius: 5px;
+//   margin: -10vh 0 0 0;
+//   padding: 8vh 8vw 5vh 8vw;
+//   background: $blend-color;
+//   color: $primary-color;
+//   font-size: $fontsize-reading;
+// }
+
+.home-content {
+  display: flex;
+  border: red 1px solid;
+  justify-content: space-evenly;
+  margin: $standerd-margin;
+
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    border: blue 1px solid;
+    justify-content: center;
+    background: $blend-color;
+    color: $primary-color;
+    padding: 10px 450px 10px 40px;
+    border-radius: 10px;
+    // margin: 0 0 0 1vw;
+    z-index: -3;
+  }
 }
 
 .profile-pic {
-  height: 18vh;
-  width: 18vh;
+  height: 25vh;
+  width: 25vh;
   border: 6px $secondary-color solid;
   border-radius: 300px;
   position: relative;
-  z-index: 1;
+  // margin: 0 15vw 0 0;
+  z-index: 100;
 }
 
 .skill-page {
