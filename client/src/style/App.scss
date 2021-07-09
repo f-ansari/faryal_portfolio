@@ -3,19 +3,30 @@
 
 // color higharchey from light to dark
 $primary-color: #f4eeea;
-$secondary-color: #e9e9e9;
-$blend-color: #31093de8;
+$secondary-color: #f0f0f0;
+$blend-color: #571583e8;
 $contrast-color: #000000db;
 $shadow-color: #b355b38e;
 
-// $font-stack: Poppins, sans-serif;
-$font-stack: Barlow, sans-serif;
+$font-stack: sans-serif;
 $fontsize-reading: 18px;
 
 $standerd-margin: 5vh 3vw 5vh 3vw;
 
+//general button box-shadow variables
+//top
+$gen-bttn-top: #8f748f8e;
+//bottom
+$gen-bttn-bottom: #4d114d8e;
+
 body {
-  background-color: $primary-color;
+  background: url('../assets/wave.svg');
+  height: 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  margin-bottom: 15%;
   font-family: $font-stack;
 }
 
@@ -45,53 +56,33 @@ nav {
   }
 }
 
-// commented out like the code in home page
-// .home-banner {
-//   display: flex;
-//   justify-content: center;
-//   flex-direction: column;
-//   align-items: center;
-//   text-align: center;
-//   margin: $standerd-margin;
-// }
-
-// .intro-card {
-//   border-radius: 5px;
-//   margin: -10vh 0 0 0;
-//   padding: 8vh 8vw 5vh 8vw;
-//   background: $blend-color;
-//   color: $primary-color;
-//   font-size: $fontsize-reading;
-// }
-
 .home-content {
   display: flex;
-  border: red 1px solid;
   justify-content: space-evenly;
-  margin: $standerd-margin;
+  margin: 20vh auto 5vh auto;
+  padding: $standerd-margin;
+  width: 1080px;
+  height: 400px;
 
   .home-text {
     display: flex;
     flex-direction: column;
-    border: blue 1px solid;
     justify-content: center;
     background: $blend-color;
     color: $primary-color;
-    padding: 10px 450px 10px 40px;
+    padding: 55px 250px 55px 45px;
     border-radius: 10px;
-    // margin: 0 0 0 1vw;
-    z-index: -3;
   }
-}
 
-.profile-pic {
-  height: 25vh;
-  width: 25vh;
-  border: 6px $secondary-color solid;
-  border-radius: 300px;
-  position: relative;
-  // margin: 0 15vw 0 0;
-  z-index: 100;
+  .profile-pic {
+    height: 310px;
+    width: 310px;
+    border: 6px $secondary-color solid;
+    border-radius: 300px;
+    position: relative;
+    margin: 35px 0 0 -270px;
+    z-index: 1;
+  }
 }
 
 .skill-page {
@@ -118,13 +109,13 @@ nav {
 }
 
 .general-bttn {
+  border-radius: 25px;
   margin: 5vh auto 5vh auto;
-  align-content: center;
-  width: 25vw;
-  background: $secondary-color;
-  padding: 10px 45px;
-  border: 1px solid $blend-color;
-  border-radius: 3px;
+  height: 30px;
+  width: 180px;
+  background: linear-gradient(145deg, #d8d8d8, #ffffff);
+  box-shadow: 20px 20px 60px $gen-bttn-bottom, -20px -20px 60px $gen-bttn-top;
+  padding: 13px 30px 5px 30px;
   text-align: center;
   cursor: pointer;
   font-size: $fontsize-reading;

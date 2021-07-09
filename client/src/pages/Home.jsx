@@ -6,13 +6,6 @@ import Skills from '../components/Skills'
 function Home(props) {
   return (
     <div>
-      {/* <div className="home-banner">
-        <img className="profile-pic" src={profilePic} alt="Faryal's profile pic"></img>
-        <div className="intro-card">
-          <h1>Faryal Ansari</h1>
-          <p>It's like you are going "far" with the southern "y'all"</p>
-        </div>
-      </div> */}
 
       <div className="home-content">
         <div className="home-text">
@@ -23,13 +16,14 @@ function Home(props) {
         <img className="profile-pic" src={profilePic} alt="Faryal's profile pic"></img>
       </div>
 
-      <div>
+      {/* can coment back in if wout want it back */}
+
+      {/* <div>
         <Skills />
-      </div>
+      </div> */}
       <div>
         <p className="general-bttn" onClick={() => props.history.push(`/about`)}>Learn More About Me</p>
       </div>
-        {/* <button className="general-bttn" onClick={() => props.history.push(`/about`)} >Learn More About Me</button> */}
     </div>
   )
 }
