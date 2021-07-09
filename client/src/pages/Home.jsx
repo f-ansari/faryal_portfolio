@@ -17,10 +17,10 @@ function Home(props) {
       </div>
 
       {/* can coment back in if wout want it back */}
-
       {/* <div>
         <Skills />
       </div> */}
+      
       <div>
         <p className="general-bttn" onClick={() => props.history.push(`/about`)}>Learn More About Me</p>
       </div>

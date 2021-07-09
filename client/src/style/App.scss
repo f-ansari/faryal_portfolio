@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+// css for 1280 x 980 and above
 
 // color higharchey from light to dark
 $primary-color: #f4eeea;
-$secondary-color: #f0f0f0;
+$secondary-color: #faf9f9;
 $blend-color: #571583e8;
-$contrast-color: #000000db;
+$contrast-color: #f1f1f1db;
 $shadow-color: #b355b38e;
 
 $font-stack: sans-serif;
@@ -33,6 +32,7 @@ body {
 nav {
   height: 4em;
   background-color: $contrast-color;
+  border-bottom: 2px solid $blend-color;
 }
 
 .nav-links {
@@ -49,10 +49,9 @@ nav {
     background: $secondary-color;
     text-decoration: none;
     font-size: $fontsize-reading;
-    padding: 8px 30px;
-    border: 1px solid $blend-color;
-
-    border-radius: 3px;
+    padding: 7px 28px;
+    border: 2px solid $blend-color;
+    border-radius: 25px;
   }
 }
 
@@ -138,7 +137,7 @@ nav {
   .line {
     width: 30px;
     height: 3px;
-    background: $primary-color;
+    background: $blend-color;
     margin: 0 0 5px 0;
     border-radius: 3px;
   }
