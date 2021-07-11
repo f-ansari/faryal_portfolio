@@ -1,28 +1,17 @@
 @use 'App';
 
-$aboutBox-margin: 2vh 3vw 2vh 3vw;
-
-// App.$secondary-color
 .about-container {
-  // border: 1px blue solid;
   border-radius: 5px;
   margin: App.$standerd-margin;
   height: 75vh;
-  // margin-bottom: -3vh;
 }
 
 .about-content-container {
-  // border: 3px green solid;
   display: flex;
   justify-content: center;
   margin: App.$standerd-margin;
 }
 
-.about-title {
-  // border: 1px red solid;
-  font-size: 130%;
-  text-align: center;
-}
 .about-box {
   margin: 0 2vw 0 2vw;
   border-radius: 15px;
@@ -36,7 +25,6 @@ $aboutBox-margin: 2vh 3vw 2vh 3vw;
 .skills-component {
   margin: App.$standerd-margin;
   text-align: center;
-  // border: 1px red solid;
   margin: 0 2vw 0 2vw;
   border-radius: 15px;
   padding: 2vh 4vw 2vh 4vw;

@@ -6,7 +6,7 @@ import Skills from '../components/Skills'
 function About() {
   return (
     <div className="about-container">
-      <div className="about-title">
+      <div className="page-title">
         <h1>About</h1>
       </div>
       <div className="about-content-container">
