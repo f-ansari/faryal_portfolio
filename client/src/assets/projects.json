@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Memmory Game",
+    "image": "./projects/the_memory_game.png",
+    "description": "The Memory Game is a simple game where the user chooses two cards from a 6 x 6 grid to see if they match. A match could be the same image, number, or color. If the user chooses two cards that do not match, they will flip back down to their original places to pick again. If they do match, the card will be removed from the board game so that the user may complete it.",
+    "url": "http://splendid-apparatus.surge.sh/game.html",
+    "contributors": "Faryal Ansari"
+  }
+]

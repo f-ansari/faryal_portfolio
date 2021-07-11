@@ -1,0 +1,14 @@
+@use 'App';
+
+.project-container {
+  border: 1px red solid;
+  border-radius: 5px;
+  margin: App.$standerd-margin;
+  height: 80vh;
+}
+
+.project-content-container {
+  border: 1px blue solid;
+  margin: App.$standerd-margin;
+  height: 60vh;
+}
