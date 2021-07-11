@@ -1,6 +1,5 @@
 import React from 'react'
 import profilePic from '../assets/faryal_profile_pic.jpg'
-import Skills from '../components/Skills'
 
 
 function Home(props) {
@@ -16,11 +15,6 @@ function Home(props) {
         <img className="profile-pic" src={profilePic} alt="Faryal's profile pic"></img>
       </div>
 
-      {/* can coment back in if wout want it back */}
-      {/* <div>
-        <Skills />
-      </div> */}
-      
       <div>
         <p className="general-bttn" onClick={() => props.history.push(`/about`)}>Learn More About Me</p>
       </div>

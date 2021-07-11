@@ -4,7 +4,7 @@ import skills from '../assets/skills.json'
 
 const Skills = () => {
     return (
-    <div className="skill-page">
+    <div className="skills-component">
         <h1>The Fun Stuff... Skills I Know</h1>
         <h3>Scroll left to view all skills</h3>
         <div className='skills-container'>
