@@ -12,3 +12,13 @@
   margin: App.$standerd-margin;
   height: 60vh;
 }
+
+.project-box {
+  margin: 0 2vw 0 2vw;
+  border-radius: 15px;
+  padding: 2vh 4vw 2vh 4vw;
+  background: App.$blend-color;
+  color: App.$primary-color;
+  width: 340px;
+  line-height: 25px;
+}
