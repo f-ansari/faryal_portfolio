@@ -21,6 +21,8 @@ function Projects(props) {
                   <h4>{project.name}</h4>
                   <img width="300vw" src={project.image} alt={project.name} />
                   <h3>Description: </h3><p>{project.description}</p>
+                  <h3>Stack: </h3><p>{project.stack}</p>
+                  <h3>Contributers: </h3><p>{project.contributors}</p>
                 </div>
               )
             })

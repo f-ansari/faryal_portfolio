@@ -4,13 +4,14 @@
   border: 1px red solid;
   border-radius: 5px;
   margin: App.$standerd-margin;
-  height: 80vh;
 }
 
 .project-content-container {
   border: 1px blue solid;
   margin: App.$standerd-margin;
-  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .project-box {
@@ -21,4 +22,5 @@
   color: App.$primary-color;
   width: 340px;
   line-height: 25px;
+  margin: 2vh;
 }
