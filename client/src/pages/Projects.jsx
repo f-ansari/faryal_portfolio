@@ -11,9 +11,21 @@ function Projects(props) {
         <h1>Projects</h1>
       </div>
 
+      
       <div className="project-content-container">
-          {/* <h4>{projects[0].name}</h4>
-          <img src={projects[0].image} alt="" /> */}
+
+        idea: have this card toggle to show more information on card
+      {
+            projects.map((project) => {
+              return (
+                <div className="project-box">
+                  <h4>{project.name}</h4>
+                  <img src={project.image} alt={project.name} />
+                </div>
+              )
+            })
+          }
+
           {
             projects.map((project) => {
               return (
