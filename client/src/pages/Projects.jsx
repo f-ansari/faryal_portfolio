@@ -2,9 +2,8 @@ import React from 'react'
 import '../style/Project.scss'
 import projects from '../assets/projects.json'
 
-function Projects(props) {
-  console.log(projects)
-  console.log(props)
+function Projects() {
+
   return (
     <div className="project-container">
       <div className="page-title">  
