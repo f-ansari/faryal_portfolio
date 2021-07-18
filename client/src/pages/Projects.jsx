@@ -14,7 +14,7 @@ function Projects(props) {
       
       <div className="project-content-container">
 
-        idea: have this card toggle to show more information on card
+        {/* idea: have this card toggle to show more information on card */}
       {
             projects.map((project) => {
               return (
