@@ -4,16 +4,6 @@ import projects from '../assets/projects.json'
 
 function Projects() {
   
-  // imported toggle function from nav component to create card to toggle
-  const toggleNav = () => {
-    const navLinks = document.querySelector(".nav-links")
-    return navLinks.classList.toggle("open")
-  }
-
-  const toggleNavOff = () => {
-    const navLinks = document.querySelector(".nav-links")
-    return navLinks.classList.remove("open")
-  }
   return (
     <div className="project-container">
       <div className="page-title">  
@@ -23,7 +13,7 @@ function Projects() {
       
       <div className="project-content-container">
 
-        {/* idea: have this card toggle to show more information on card */}
+        {/* idea: refer to memonry game*/}
       {
             projects.map((project) => {
               return (
