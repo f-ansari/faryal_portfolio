@@ -3,6 +3,11 @@ import '../style/Project.scss'
 import projects from '../assets/projects.json'
 
 function Projects() {
+
+  //Build out function here
+  const handleMouseOver = (i) => {
+    console.log(i)
+  }
   
   return (
     <div className="project-container">
@@ -15,9 +20,9 @@ function Projects() {
 
         {/* idea: refer to memonry game*/}
       {
-            projects.map((project) => {
+            projects.map((project, i) => {
               return (
-                <div className="project-box">
+                <div className="project-box" onMouseOver={e => handleMouseOver(i)}>
                   <h4>{project.name}</h4>
                   <img src={project.image} alt={project.name} />
                 </div>
@@ -26,7 +31,7 @@ function Projects() {
           }
 
           {
-            projects.map((project) => {
+            projects.map((project, i) => {
               return (
                 <div className="project-box">
                   <h4>{project.name}</h4>
@@ -42,5 +47,6 @@ function Projects() {
     </div>
   )
 }
+
 
 export default Projects
