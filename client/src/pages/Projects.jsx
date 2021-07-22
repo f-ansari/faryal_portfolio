@@ -4,11 +4,8 @@ import projects from '../assets/projects.json'
 
 function Projects() {
 
-  //Build out function here
-  const handleMouseOver = (i) => {
-    console.log(i)
-  }
-  
+// install npm install react-flippy
+
   return (
     <div className="project-container">
       <div className="page-title">  
@@ -22,7 +19,7 @@ function Projects() {
       {
             projects.map((project, i) => {
               return (
-                <div className="project-box" onMouseOver={e => handleMouseOver(i)}>
+                <div className="project-box" onMouseOver={e => handleMouseOver(i)} key={i}>
                   <h4>{project.name}</h4>
                   <img src={project.image} alt={project.name} />
                 </div>
@@ -30,10 +27,10 @@ function Projects() {
             })
           }
 
-          {
+          {/* {
             projects.map((project, i) => {
               return (
-                <div className="project-box">
+                <div className="project-box" key={i}>
                   <h4>{project.name}</h4>
                   <img src={project.image} alt={project.name} />
                   <h3>Description: </h3><p>{project.description}</p>
@@ -42,11 +39,10 @@ function Projects() {
                 </div>
               )
             })
-          }
+          } */}
       </div>
     </div>
   )
 }
-
 
 export default Projects
