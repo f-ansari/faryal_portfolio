@@ -4,7 +4,7 @@ import profilePic from '../assets/faryal_profile_pic.jpg'
 
 function Home(props) {
   return (
-    <div>
+    <div className="animate__animated animate__slideInUp animate__slow">
 
       <div className="home-content">
         <div className="home-text">
