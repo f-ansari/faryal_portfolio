@@ -27,7 +27,7 @@ function Projects() {
       {
             projects.map((project, i) => {
               return (
-                <div className="project-box" key={i}>
+                <div className="project-box animate__animated animate__slideInUp animate__slower" key={i}>
                   <h4>{project.name}</h4>
                   <img src={project.image} alt={project.name}/>
                 
