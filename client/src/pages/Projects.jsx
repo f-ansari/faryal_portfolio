@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../style/Project.scss'
 import projects from '../assets/projects.json'
 
 function Projects() {
 
-// install npm install react-flippy
+  // const [card, setCard] = useState(false)
+  // console.log(card)
+  const redirectToRepo = (i) => {
+    return window.location.href = `${projects[i].repoURL}`
+  }
+
+  const redirectToProject = (i) => {
+    return window.location.href = `${projects[i].projectURL}`
+  }
 
   return (
+
     <div className="project-container">
       <div className="page-title">  
         <h1>Projects</h1>
@@ -14,14 +23,18 @@ function Projects() {
 
       
       <div className="project-content-container">
-
         {/* idea: refer to memonry game*/}
       {
             projects.map((project, i) => {
               return (
-                <div className="project-box" onMouseOver={e => handleMouseOver(i)} key={i}>
+                <div className="project-box" key={i}>
                   <h4>{project.name}</h4>
-                  <img src={project.image} alt={project.name} />
+                  <img src={project.image} alt={project.name}/>
+                
+                <div className="button-container">
+                  <p className="projects-button" onClick={e => redirectToRepo(i)}>Repo</p>
+                  <p className="projects-button" onClick={e => redirectToProject(i)}>Visit Project</p>
+                </div>
                 </div>
               )
             })
@@ -30,7 +43,7 @@ function Projects() {
           {/* {
             projects.map((project, i) => {
               return (
-                <div className="project-box" key={i}>
+                <div className="project-box" key={i} id={i}>
                   <h4>{project.name}</h4>
                   <img src={project.image} alt={project.name} />
                   <h3>Description: </h3><p>{project.description}</p>

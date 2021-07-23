@@ -4,7 +4,8 @@
     "image": "https://i.imgur.com/GwpP0uN.png",
     "description": "The Memory Game is a simple game where the user chooses two cards from a 6 x 6 grid to see if they match. A match could be the same image, number, or color. If the user chooses two cards that do not match, they will flip back down to their original places to pick again. If they do match, the card will be removed from the board game so that the user may complete it.",
     "stack": "HTML, CSS, JavaScript",
-    "url": "http://splendid-apparatus.surge.sh/game.html",
+    "projectURL": "http://splendid-apparatus.surge.sh/game.html",
+    "repoURL": "https://github.com/f-ansari/memory_game",
     "contributors": "Faryal Ansari"
   },
   {
@@ -12,7 +13,8 @@
     "image": "https://i.imgur.com/THqXWsS.png",
     "description": "This is a full-stack MERN application in the form of a Blog App that will allow users to create and view posts.",
     "stack": "React, CSS, MongoDB/Mongoose, Express/Node",
-    "url": "https://fast-stream-31367.herokuapp.com/",
+    "projectURL": "https://fast-stream-31367.herokuapp.com/",
+    "repoURL": "https://github.com/hipstina/gooser",
     "contributors": "Faryal Ansari, Christina Padilla, Andrew Liu, Jonte Fears"
   },
   {
@@ -20,7 +22,8 @@
     "image": "https://i.imgur.com/AsLfACZ.png",
     "description": "FloridaHomes is a website where user can listing their Florida homes to show for sale. Once the listing is sold, the user can find and delete the listing. Additionally, the cities tab allows users to view city stats and properties within the city.",
     "stack": "Mongo/Mongoose, Express, React, Node",
-    "url": "https://limitless-hollows-75506.herokuapp.com/",
+    "projectURL": "https://limitless-hollows-75506.herokuapp.com/",
+    "repoURL": "https://github.com/f-ansari/florida_homes",
     "contributors": "Faryal Ansari"
   },
   {
@@ -28,7 +31,8 @@
     "image": "https://i.imgur.com/f0JMhd6.png",
     "description": "CodeStack is a fun and interactive educational tool that allows users to create their custom decks of flashcards. Each flashcard will enable the user to input the title, code block, and notes, as well as selecting the coding language being reviewed. In addition to their own sets, users will also be able to see and interact with decks that other users have created. Coding just got a whole lot easier.",
     "stack": "PostgreSQL, Express, React, Node",
-    "url": "https://obscure-mountain-15765.herokuapp.com/",
+    "projectURL": "https://obscure-mountain-15765.herokuapp.com/",
+    "repoURL": "https://github.com/f-ansari/code_stack",
     "contributors": "Faryal Ansari, Christina Padilla, Nick Williams, Luke Arenas"
   },
   {
@@ -36,7 +40,8 @@
     "image": "https://i.imgur.com/VMsgfjX.png",
     "description": "Interior Café is a full-stack PERN application that allows interior designers to post their works and view other user's work for inspiration.",
     "stack": "Python, Flask-SQLAlchemy, Redux, React, Node",
-    "url": "https://interiorcafe.netlify.app/",
+    "projectURL": "https://interiorcafe.netlify.app/",
+    "repoURL": "https://github.com/f-ansari/interior_cafe",
     "contributors": "Faryal Ansari"
   }
 ]
