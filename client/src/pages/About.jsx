@@ -5,7 +5,7 @@ import Skills from '../components/Skills'
 
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container  animate__animated animate__slideInUp animate__slow">
       <div className="page-title">
         <h1>About</h1>
       </div>
