@@ -36,12 +36,17 @@
 .projects-button {
   border-radius: 25px;
   margin: 1vh 1vw 1vh 1vw;
-  height: 30px;
+  height: 20px;
   background: linear-gradient(145deg, #d8d8d8, #ffffff);
   box-shadow: 20px 20px 60px App.$gen-bttn-bottom,
     -20px -20px 60px App.$gen-bttn-top;
-  padding: 13px 30px 5px 30px;
+  padding: 10px 30px 13px 30px;
   cursor: pointer;
   font-size: App.$fontsize-reading;
   color: black;
+  transition: opacity 0.2s;
+}
+
+.button-container:hover .projects-button:not(:hover) {
+  opacity: 0.5;
 }
