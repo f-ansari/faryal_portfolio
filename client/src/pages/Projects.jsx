@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../style/Project.scss'
 import projects from '../assets/projects.json'
 
 function Projects() {
-
-  // const [card, setCard] = useState(false)
-  // console.log(card)
   const redirectToRepo = (i) => {
     return window.location.href = `${projects[i].repoURL}`
   }
@@ -40,6 +37,8 @@ function Projects() {
             })
           }
 
+          {/* Keeping for future purpose:
+          maybe future purpose: flip card? */}
           {/* {
             projects.map((project, i) => {
               return (

@@ -33,6 +33,7 @@ nav {
   height: 4em;
   background-color: $contrast-color;
   border-bottom: 1px solid $shadow-color;
+  transition: opacity 0.2s;
 }
 
 .nav-links {
@@ -53,6 +54,10 @@ nav {
     border: 1px solid $blend-color;
     border-radius: 25px;
   }
+}
+
+nav:hover a:not(:hover) {
+  opacity: 0.5;
 }
 
 .home-content {
