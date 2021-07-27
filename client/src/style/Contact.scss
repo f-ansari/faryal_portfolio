@@ -6,8 +6,6 @@
 }
 
 .contact-card-container {
-  //   height: ?90vh;
-  border: 1px red solid;
   text-align: center;
   padding: 0 0 20px 0;
 }
@@ -17,11 +15,9 @@ p {
 }
 
 .card {
-  //   border: 1px blue solid;
   background-color: App.$blend-color;
   color: App.$primary-color;
   border-radius: 5px;
-  //   margin: App.$standerd-margin;
   margin: auto;
   width: 60%;
   padding: 20px;
