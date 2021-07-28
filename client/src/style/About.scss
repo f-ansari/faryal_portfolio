@@ -20,6 +20,17 @@
   color: App.$primary-color;
   width: 340px;
   line-height: 25px;
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+  }
+
+  p {
+    font-family: 'Pridi', serif;
+    font-size: 110%;
+    font-weight: bold;
+  }
 }
 
 .skills-component {
@@ -31,6 +42,7 @@
   background: App.$blend-color;
   color: App.$primary-color;
   width: 650px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .skills-container {

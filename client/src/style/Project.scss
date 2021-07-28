@@ -21,9 +21,11 @@
   width: 340px;
   line-height: 25px;
   margin: 2vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 150%;
 
   img {
-    width: 23.5vw;
+    width: 100%;
   }
 }
 
@@ -35,7 +37,8 @@
 .projects-button {
   border-radius: 25px;
   margin: 1vh 1vw 1vh 1vw;
-  height: 20px;
+  height: 2.5vh;
+  text-align: center;
   background: linear-gradient(145deg, #d8d8d8, #ffffff);
   box-shadow: 20px 20px 60px App.$gen-bttn-bottom,
     -20px -20px 60px App.$gen-bttn-top;

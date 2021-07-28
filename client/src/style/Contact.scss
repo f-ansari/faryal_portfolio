@@ -2,7 +2,7 @@
 
 .contact-container {
   margin: App.$standerd-margin;
-  height: 35rem;
+  height: 85vh;
 }
 
 .contact-card-container {
@@ -10,8 +10,22 @@
   padding: 0 0 20px 0;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 200%;
+}
+
 p {
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 150%;
+}
+
+#memo {
+  font-size: 200%;
 }
 
 .card {

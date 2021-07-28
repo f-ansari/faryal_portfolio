@@ -10,7 +10,7 @@ function Home(props) {
         <div className="home-text">
           <h3>it's like you are going "far" with the southern "yall"</h3>
           <h1>Faryal Ansari</h1>
-          <h2>Let me help you make your dream app to a reality</h2>
+          <h2>Let me help you make your dream app to a reality.</h2>
         </div>
         <img className="profile-pic" src={profilePic} alt="Faryal's profile pic"></img>
       </div>
